@@ -1,0 +1,88 @@
+/*.grid-container {
+  display: grid;
+  grid-template-columns: 10% 10% auto auto auto auto auto;
+  grid-template-rows : 50%;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-column-gap : 0px;
+  height:100%;
+}*/
+.grid-container > div {
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+/* text-align: center; */
+}
+
+.second-col {
+	
+}
+
+#item-1 {
+	background-color : #0E5471;
+	grid-column: 1 / span 2;
+/*	grid-row: 1 / span 3; */
+
+}
+
+
+
+#one {
+  
+  object-fit: contain;
+  /*border-style: solid;*/
+  max-height: 90%;
+  max-width: 90%;
+  margin-bottom: 20px;
+  
+}
+
+.grid-container {
+  position:relative;
+  /*top:10vh;*/
+  display: grid;
+  grid-template-columns: 10% 10% auto auto auto auto auto;
+  grid-template-rows : 50%;
+  background-color: #8FD5F3;
+  padding: 0px;
+  grid-column-gap : 0px;
+  height:100vh;
+  border:0px;
+  margin:0px;
+  visibility: hidden;
+}
+
+.answer {
+  padding: 0px;
+  margin: 0px;
+  border: 10px;
+  border-color: :#0E5471;
+  text-decoration-color: #0E5471;
+  border: 2px solid #0E5471;
+  background-color: #EC881F;
+  position:relative;
+  top: 15vh;
+  height:20vh;
+  width:10vw;
+}
+
+
+.slidecontainer {
+  grid-column:1 / span 7;
+  background-color: orange;
+}
+
+#myRange{
+  flood-color: red;
+  color: red;
+  background-color: red;
+  width:90%;
+}
+
+.timeLimitContainer{
+  grid-column:1 / span 7;
+  background-color: orange;
+}
+
+
+

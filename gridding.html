@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+	<head>
+		<meta charset = 'UTF-8'>
+		<link href = 'gridding.css' rel = 'stylesheet'>
+    <script src="gridding.js"></script>
+	</head>
+
+	<body>
+
+    <button class="begin" onclick="unhide()">Begin</button>
+
+    
+		<div class="grid-container">
+
+      <div id="item-1"> <img id = "one" src="one.png" alt="Italian Trulli"> </div>
+
+      <div class="first-col">
+        <button id = "aone" class="answer" onclick="checkone()">One</button> 
+      </div>
+
+      <div class = "second-col">
+        <button id = "atwo" class="answer" onclick="checktwo()">Two</button> 
+      </div>  
+
+      <div class="third-col">
+        <button id = "athree" class="answer" onclick="checkthree()">Three</button> 
+      </div>
+
+      <div class="fourth-col">
+        <button id = "afour" class="answer" onclick="checkfour()">Four</button> 
+      </div>
+
+      <div class="fifth-col">
+        <button id = "afive" class="answer" onclick="checkfive()">Five</button> 
+      </div>
+
+      <div class ="slidecontainer">
+        <input type="range" min="0" max="60" value ="0" class = "slider" id = "myRange">
+      </div>
+
+      <div class = "timeLimitContainer">
+        <p id="timeLimitText">blah</p>
+      </div>
+
+
+
+    </div>
+
+	</body>
+</html>
